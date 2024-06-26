@@ -11,7 +11,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+enable_jax_profiler: False
+jax_profiler_port: 8081
 # This sentinel is a reminder to choose a real run name.
 # If there is already a checkpoint under this run, that checkpoint will auto-resume.
 run_name: ""

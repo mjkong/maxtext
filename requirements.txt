@@ -1,6 +1,6 @@
-jax>=0.4.23
-jaxlib>=0.4.23
-orbax-checkpoint>=0.5.11
+jax==0.4.29
+jaxlib==0.4.29
+orbax-checkpoint==0.5.16
 absl-py
 array-record
 aqtp
@@ -22,8 +22,8 @@ pyink
 pre-commit
 pytype
 sentencepiece==0.1.97
-tensorflow-text>=2.13.0
-tensorflow>=2.13.0
+tensorflow-text==2.13.0
+tensorflow==2.13.1
 tensorflow-datasets
 tensorboardx
 tensorboard-plugin-profile
@@ -31,3 +31,5 @@ transformers
 git+https://github.com/mlperf/logging.git
 google-jetstream
 jsonlines
+nltk
+evaluate
